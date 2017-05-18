@@ -21,5 +21,13 @@ class ViewControllerFor4: UIViewController {
         let n = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForHouse") as! ViewControllerForHouse
         navigationController?.popViewController(animated: true)
     }
+    @IBAction func searchButtonaction(_ sender: Any) {
+        let navigaet = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForsearch") as! ViewControllerForsearch
+        navigationController?.pushViewController(navigaet, animated: true)
+    }
     
+    @IBAction func begButtonaction(_ sender: Any) {
+        let navigaet = storyboard?.instantiateViewController(withIdentifier: "ViewControllerShoppingBeg") as! ViewControllerShoppingBeg
+        navigationController?.pushViewController(navigaet, animated: true)
+    }
 }

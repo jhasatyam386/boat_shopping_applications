@@ -31,6 +31,10 @@ class ViewControllerForsearch: UIViewController,UICollectionViewDelegate,UIColle
         
         return CGSize(width: 700, height: 200)
     }
-
+    @IBAction func backButtonAction(_ sender: Any) {
+        let n = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForHouse") as! ViewControllerForHouse
+        navigationController?.popViewController(animated: true)
+    }
+    
    
 }

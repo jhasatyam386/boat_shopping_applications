@@ -132,7 +132,7 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
             return CGSize(width: 120, height: 120)
         }
         else if collectionView == self.collectionViewForBigThreeadPosture{
-            return CGSize(width: 400, height: 450)
+            return CGSize(width: 414, height: 413)
         }
         else if collectionView == self.collectionViewMiniImage{
             return CGSize(width: 98, height: 120)

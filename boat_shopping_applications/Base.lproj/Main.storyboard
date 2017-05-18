@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jeL-FI-h67">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SRk-w1-u6v">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -10,10 +10,26 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="O22-FG-2xC">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="SRk-w1-u6v" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="07q-3w-06b">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="jeL-FI-h67" kind="relationship" relationship="rootViewController" id="Zmh-Ps-Wz6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TRF-Rv-NRs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-780" y="567"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JVX-wP-Kgq">
             <objects>
                 <tabBarController id="jeL-FI-h67" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="yqC-Hm-oeC"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0LW-EM-rsq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -26,7 +42,7 @@
                         </tabBarAppearance>
                     </tabBar>
                     <connections>
-                        <segue destination="Wgp-ZX-COO" kind="relationship" relationship="viewControllers" id="gKQ-eu-i0v"/>
+                        <segue destination="odb-BM-7ZJ" kind="relationship" relationship="viewControllers" id="Z1F-Jl-rPP"/>
                         <segue destination="rXU-nD-gqQ" kind="relationship" relationship="viewControllers" id="EzN-ts-823"/>
                         <segue destination="C8z-Rd-o4X" kind="relationship" relationship="viewControllers" id="Ipy-gX-GWl"/>
                         <segue destination="36E-tX-1uC" kind="relationship" relationship="viewControllers" id="0kj-lj-lgX"/>
@@ -37,7 +53,7 @@
             </objects>
             <point key="canvasLocation" x="52" y="567"/>
         </scene>
-        <!--View Controller For House-->
+        <!--home-->
         <scene sceneID="nJh-6N-LDh">
             <objects>
                 <viewController storyboardIdentifier="ViewControllerForHouse" id="odb-BM-7ZJ" customClass="ViewControllerForHouse" customModule="boat_shopping_applications" customModuleProvider="target" sceneMemberID="viewController">
@@ -108,26 +124,26 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="EmK-3q-HCH">
-                                                    <size key="itemSize" width="397" height="367"/>
+                                                    <size key="itemSize" width="414" height="413"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" restorationIdentifier="CollectionViewCell2" reuseIdentifier="cell2" id="0uj-DE-sLj" customClass="CollectionViewCell2" customModule="boat_shopping_applications" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="31" width="397" height="367"/>
+                                                        <rect key="frame" x="0.0" y="8" width="414" height="413"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="v4v-x4-y5v">
-                                                            <rect key="frame" x="0.0" y="0.0" width="397" height="367"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="413"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kaF-Ea-veC">
-                                                                    <rect key="frame" x="55" y="8" width="288" height="359"/>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kaF-Ea-veC">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="413"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 </imageView>
                                                             </subviews>
                                                         </collectionViewCellContentView>
-                                                        <size key="customSize" width="397" height="367"/>
+                                                        <size key="customSize" width="414" height="413"/>
                                                         <connections>
                                                             <outlet property="img2" destination="kaF-Ea-veC" id="VDy-Gs-CPd"/>
                                                         </connections>
@@ -641,6 +657,7 @@
                             <constraint firstItem="qDX-z1-d2o" firstAttribute="trailing" secondItem="F07-sr-rae" secondAttribute="trailing" constant="162" id="tQV-CN-xau"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="home" image="house" catalog="system" selectedImage="house.fill" id="mUG-L5-dNH"/>
                     <navigationItem key="navigationItem" id="pTP-Fh-cqk"/>
                     <connections>
                         <outlet property="collectionForStarImg" destination="6Jv-7c-Rx4" id="WN0-C8-PSt"/>
@@ -667,7 +684,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" fixedFrame="YES" text="Search products" translatesAutoresizingMaskIntoConstraints="NO" id="cFM-f1-ISp">
-                                <rect key="frame" x="0.0" y="48" width="415" height="44"/>
+                                <rect key="frame" x="51" y="48" width="343" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -706,6 +723,19 @@
                                     <outlet property="delegate" destination="GHA-Z0-kVL" id="b7n-n6-4ZE"/>
                                 </connections>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8r9-gs-BOa">
+                                <rect key="frame" x="1" y="46" width="45" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <imageReference key="image" image="chevron.left" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="24"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButtonAction:" destination="GHA-Z0-kVL" eventType="touchUpInside" id="Ip5-yW-nkw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qEk-jf-DV7"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -717,7 +747,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Oq-Gv-dXh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3465" y="-295"/>
+            <point key="canvasLocation" x="3463.7681159420295" y="-295.3125"/>
         </scene>
         <!--View Controller For Home Smart Watch Big Posture-->
         <scene sceneID="mSX-pB-7sW">
@@ -758,18 +788,6 @@
                                     <action selector="searchButtonAction:" destination="AsL-wH-9eg" eventType="touchUpInside" id="3tI-GD-Hbm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKu-38-fQb">
-                                <rect key="frame" x="366" y="47" width="48" height="38"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="PQs-TC-Q5o"/>
-                                    <constraint firstAttribute="width" constant="48" id="mQe-0o-iX9"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="shopping-bag (3)"/>
-                                <connections>
-                                    <action selector="begButtonAction:" destination="AsL-wH-9eg" eventType="touchUpInside" id="QhA-qZ-hp6"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="boAt Wanderer smart | Kids sm..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyk-xc-8of">
                                 <rect key="frame" x="58" y="51" width="273" height="34"/>
                                 <constraints>
@@ -783,8 +801,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p9M-U7-UwW">
                                 <rect key="frame" x="0.0" y="93" width="414" height="741"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ech-bn-zzo">
-                                        <rect key="frame" x="0.0" y="8" width="414" height="1050"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ech-bn-zzo">
+                                        <rect key="frame" x="0.0" y="8" width="414" height="1010"/>
                                         <subviews>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMB-oh-nqW">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="422"/>
@@ -1034,6 +1052,33 @@
                                     <constraint firstAttribute="width" constant="414" id="xVY-Qq-trZ"/>
                                 </constraints>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytP-c5-fiC">
+                                <rect key="frame" x="0.0" y="835" width="207" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ADD TO CART">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="0.0"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVY-3A-avy">
+                                <rect key="frame" x="204" y="834" width="210" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="BUY NOW">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="0.0"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3I5-Mr-lY5">
+                                <rect key="frame" x="366" y="47" width="48" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="shopping-bag (3)"/>
+                                <connections>
+                                    <action selector="begButtonAction:" destination="AsL-wH-9eg" eventType="touchUpInside" id="f6u-NX-GQK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="j6J-zD-5qJ"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1041,8 +1086,6 @@
                             <constraint firstItem="Ech-bn-zzo" firstAttribute="width" secondItem="jGF-bJ-V8j" secondAttribute="width" id="4qr-YO-jXh"/>
                             <constraint firstItem="oyk-xc-8of" firstAttribute="leading" secondItem="Sog-0d-5oV" secondAttribute="trailing" constant="9" id="B4T-Rx-e9a"/>
                             <constraint firstItem="Sog-0d-5oV" firstAttribute="top" secondItem="jGF-bJ-V8j" secondAttribute="top" constant="48" id="Fde-bU-UCz"/>
-                            <constraint firstItem="QKu-38-fQb" firstAttribute="leading" secondItem="oyk-xc-8of" secondAttribute="trailing" constant="35" id="Gnw-R0-Vul"/>
-                            <constraint firstAttribute="trailing" secondItem="QKu-38-fQb" secondAttribute="trailing" id="KCI-b1-df3"/>
                             <constraint firstItem="Sog-0d-5oV" firstAttribute="leading" secondItem="j6J-zD-5qJ" secondAttribute="leading" constant="4" id="Ti7-gP-Wjg"/>
                             <constraint firstItem="p9M-U7-UwW" firstAttribute="top" secondItem="Sog-0d-5oV" secondAttribute="bottom" constant="2" id="U3g-N4-MaD"/>
                             <constraint firstItem="p9M-U7-UwW" firstAttribute="trailing" secondItem="j6J-zD-5qJ" secondAttribute="trailing" id="nBa-yp-ZmC"/>
@@ -1050,7 +1093,6 @@
                             <constraint firstItem="p9M-U7-UwW" firstAttribute="leading" secondItem="j6J-zD-5qJ" secondAttribute="leading" id="pvu-G5-n3n"/>
                             <constraint firstItem="Leq-XW-Kdb" firstAttribute="top" secondItem="j6J-zD-5qJ" secondAttribute="top" constant="7" id="qSI-ih-WJp"/>
                             <constraint firstItem="oyk-xc-8of" firstAttribute="top" secondItem="j6J-zD-5qJ" secondAttribute="top" constant="7" id="tKk-5W-MLq"/>
-                            <constraint firstItem="QKu-38-fQb" firstAttribute="top" secondItem="jGF-bJ-V8j" secondAttribute="top" constant="47" id="yMv-8U-ixz"/>
                             <constraint firstItem="j6J-zD-5qJ" firstAttribute="trailing" secondItem="Leq-XW-Kdb" secondAttribute="trailing" constant="38" id="zfx-gC-F2B"/>
                         </constraints>
                     </view>
@@ -1084,6 +1126,34 @@
                                     <action selector="backButtonAction:" destination="nKY-kM-Hlk" eventType="touchUpInside" id="1mO-HQ-ham"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXw-Cd-lr9">
+                                <rect key="frame" x="318" y="46" width="53" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="searchButtonAction:" destination="nKY-kM-Hlk" eventType="touchUpInside" id="W65-Pi-Xbx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kl-M0-Ybv">
+                                <rect key="frame" x="362" y="42" width="48" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="shopping-bag (3)"/>
+                                <connections>
+                                    <action selector="begButtonAction:" destination="nKY-kM-Hlk" eventType="touchUpInside" id="TyH-Po-W6w"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="boAt Aavante Bar Stark | 160W..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRI-cf-h4r">
+                                <rect key="frame" x="60" y="50" width="266" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CBV-U8-37x"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1091,7 +1161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eFw-lA-B64" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4843" y="-295"/>
+            <point key="canvasLocation" x="4842.0289855072469" y="-295.3125"/>
         </scene>
         <!--View Controller Big Posture2 For-->
         <scene sceneID="lxj-fq-nY5">
@@ -1114,6 +1184,34 @@
                                     <action selector="backButtonaction:" destination="m2y-yk-es6" eventType="touchUpInside" id="bm3-WC-Bej"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOn-FU-0tb">
+                                <rect key="frame" x="346" y="42" width="48" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="shopping-bag (3)"/>
+                                <connections>
+                                    <action selector="begButtonAction:" destination="m2y-yk-es6" eventType="touchUpInside" id="dgB-dd-5oB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfo-Fa-MhW">
+                                <rect key="frame" x="304" y="44" width="53" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="searchButtonAction:" destination="m2y-yk-es6" eventType="touchUpInside" id="OXt-kp-Dob"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="boAt Xtend Call Plus || 1.91&quot; (4.8..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1R-6n-qH5">
+                                <rect key="frame" x="56" y="50" width="266" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UrL-eA-Ttk"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1121,7 +1219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JyU-8K-L6M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5470" y="-295"/>
+            <point key="canvasLocation" x="5469.5652173913049" y="-295.3125"/>
         </scene>
         <!--View Controller For4-->
         <scene sceneID="Igr-B3-v4D">
@@ -1144,6 +1242,35 @@
                                     <action selector="backButtonAction:" destination="aiU-9m-xdt" eventType="touchUpInside" id="V0m-Ms-JwJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aze-gG-4pI">
+                                <rect key="frame" x="346" y="46" width="48" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="shopping-bag (3)"/>
+                                <connections>
+                                    <action selector="backButtonAction:" destination="aiU-9m-xdt" eventType="touchUpInside" id="unE-G6-wWM"/>
+                                    <action selector="begButtonaction:" destination="aiU-9m-xdt" eventType="touchUpInside" id="Shh-zX-bPX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hE7-oQ-NOB">
+                                <rect key="frame" x="301" y="48" width="53" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="searchButtonaction:" destination="aiU-9m-xdt" eventType="touchUpInside" id="ht1-rh-dIc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daily Deals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xq4-Ah-C1q">
+                                <rect key="frame" x="5" y="50" width="266" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fUL-1B-QFZ"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1162,7 +1289,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEF-b8-vDy">
-                                <rect key="frame" x="20" y="44" width="45" height="43"/>
+                                <rect key="frame" x="19" y="44" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -1174,6 +1301,34 @@
                                     <action selector="backButtonSaction:" destination="eM7-Z8-o8T" eventType="touchUpInside" id="xRR-b8-MDT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OoB-5z-Rzf">
+                                <rect key="frame" x="346" y="44" width="48" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="shopping-bag (3)"/>
+                                <connections>
+                                    <action selector="begButtonAction:" destination="eM7-Z8-o8T" eventType="touchUpInside" id="uWk-nU-faj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lf8-Lf-dcV">
+                                <rect key="frame" x="304" y="46" width="53" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="searchButtonaction:" destination="eM7-Z8-o8T" eventType="touchUpInside" id="V5t-cL-RJX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="boAt Airdrops 131 | Wireless Ea..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H03-pD-dnR">
+                                <rect key="frame" x="53" y="50" width="266" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="06W-DN-yUT"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1182,22 +1337,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jyT-8S-rcm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6826" y="-306"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="rAw-CV-DrK">
-            <objects>
-                <navigationController navigationBarHidden="YES" id="Wgp-ZX-COO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="house.fill" catalog="system" landscapeImage="house" id="AIV-jj-Yop"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uyJ-e4-sZx">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="odb-BM-7ZJ" kind="relationship" relationship="rootViewController" id="tbp-na-Xqk"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sZu-lH-W0z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2119" y="-295"/>
         </scene>
         <!--View Controller For Head Fone1-->
         <scene sceneID="NdV-v3-too">
@@ -1274,11 +1413,11 @@
             </objects>
             <point key="canvasLocation" x="2857.971014492754" y="444.64285714285711"/>
         </scene>
-        <!--Item-->
+        <!--Categories-->
         <scene sceneID="zg7-iP-8aQ">
             <objects>
                 <navigationController navigationBarHidden="YES" id="rXU-nD-gqQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="headphones.circle.fill" catalog="system" landscapeImage="headphones" id="v1u-DL-XbA"/>
+                    <tabBarItem key="tabBarItem" title="Categories" image="headphones.circle.fill" catalog="system" id="v1u-DL-XbA"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PTf-g1-9RU">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1735,11 +1874,11 @@
             </objects>
             <point key="canvasLocation" x="4752.1739130434789" y="1190.625"/>
         </scene>
-        <!--Item-->
+        <!--My Profile-->
         <scene sceneID="d0b-5n-UMz">
             <objects>
                 <navigationController navigationBarHidden="YES" id="C8z-Rd-o4X" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="person.fill" catalog="system" landscapeImage="person" id="I33-AA-P0n"/>
+                    <tabBarItem key="tabBarItem" title="My Profile" image="person.fill" catalog="system" landscapeImage="person" id="I33-AA-P0n"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QK0-OP-rrh">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1826,11 +1965,11 @@
             </objects>
             <point key="canvasLocation" x="2724.6376811594205" y="1884.375"/>
         </scene>
-        <!--Item-->
+        <!--My Cart-->
         <scene sceneID="TsW-UC-bce">
             <objects>
                 <navigationController navigationBarHidden="YES" id="36E-tX-1uC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="bag (4)" landscapeImage="bag (4)" id="zoG-cA-8W0"/>
+                    <tabBarItem key="tabBarItem" title="My Cart" image="bag (4)" id="zoG-cA-8W0"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eYn-U9-qOC">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1929,11 +2068,11 @@
             </objects>
             <point key="canvasLocation" x="2650.7246376811595" y="2704.6875"/>
         </scene>
-        <!--Item-->
+        <!--More-->
         <scene sceneID="qCr-d6-qwe">
             <objects>
                 <navigationController navigationBarHidden="YES" id="rY1-1n-srj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="ellipsis" landscapeImage="more" id="eWW-G8-kCg"/>
+                    <tabBarItem key="tabBarItem" title="More" image="ellipsis" id="eWW-G8-kCg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h8v-Ay-uoX">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1944,21 +2083,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LFC-OK-e8s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1832" y="2705"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="v9d-9g-W71">
-            <objects>
-                <navigationController id="Zdj-Z7-YbN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="house.fill" catalog="system" landscapeImage="house" id="kho-1V-iJz"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KAg-go-c3R">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Fhx-Hq-97y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2119" y="-295"/>
         </scene>
     </scenes>
     <resources>
@@ -1978,14 +2102,12 @@
         <image name="delivery-box" width="24" height="24"/>
         <image name="discount (2)" width="24" height="24"/>
         <image name="ellipsis" width="24" height="24"/>
-        <image name="headphones" catalog="system" width="128" height="121"/>
         <image name="headphones.circle.fill" catalog="system" width="128" height="121"/>
         <image name="heart" width="24" height="24"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="menu" width="24" height="24"/>
-        <image name="more" width="24" height="24"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="placeholder" width="24" height="24"/>

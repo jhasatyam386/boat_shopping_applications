@@ -21,5 +21,13 @@ class ViewControllerBigPosture2For: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
-
+    @IBAction func begButtonAction(_ sender: Any) {
+        let navigaet = storyboard?.instantiateViewController(withIdentifier: "ViewControllerShoppingBeg") as! ViewControllerShoppingBeg
+        navigationController?.pushViewController(navigaet, animated: true)
+    }
+    
+    @IBAction func searchButtonAction(_ sender: Any) {
+        let navigaet = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForsearch") as! ViewControllerForsearch
+        navigationController?.pushViewController(navigaet, animated: true)
+    }
 }
