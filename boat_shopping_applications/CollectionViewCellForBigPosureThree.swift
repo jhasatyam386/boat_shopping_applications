@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CollectionViewCellForBigPosureThree: UICollectionViewCell {
+class : UICollectionViewCell {
     
     @IBOutlet weak var imgeForBigPoster: UIImageView!
     

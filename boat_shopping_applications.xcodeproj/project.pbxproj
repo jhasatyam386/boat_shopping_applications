@@ -21,6 +21,8 @@
 		D33F6A4E29E7D1E900DE933F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33F6A4D29E7D1E900DE933F /* Assets.xcassets */; };
 		D33F6A5129E7D1E900DE933F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33F6A4F29E7D1E900DE933F /* LaunchScreen.storyboard */; };
 		D36C8DEB29EE7A8A00B751F3 /* CollectionViewCellCategroiesAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36C8DEA29EE7A8A00B751F3 /* CollectionViewCellCategroiesAll.swift */; };
+		D37D163F29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */; };
+		D37D164129EFBC90004BF699 /* CollectionViewCell2Big.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D164029EFBC90004BF699 /* CollectionViewCell2Big.swift */; };
 		D3AF5D6329ED226E007C7EFE /* CollectionViewCellForBigPosureThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF5D6229ED226E007C7EFE /* CollectionViewCellForBigPosureThree.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		D33F6A5029E7D1E900DE933F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D33F6A5229E7D1E900DE933F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D36C8DEA29EE7A8A00B751F3 /* CollectionViewCellCategroiesAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellCategroiesAll.swift; sourceTree = "<group>"; };
+		D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForBigPosureThree.swift; sourceTree = "<group>"; };
+		D37D164029EFBC90004BF699 /* CollectionViewCell2Big.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2Big.swift; sourceTree = "<group>"; };
 		D3AF5D6229ED226E007C7EFE /* CollectionViewCellForBigPosureThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForBigPosureThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +62,8 @@
 		D33F6A3529E7D1E700DE933F = {
 			isa = PBXGroup;
 			children = (
+				D37D164029EFBC90004BF699 /* CollectionViewCell2Big.swift */,
+				D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */,
 				D33F6A4029E7D1E700DE933F /* boat_shopping_applications */,
 				D33F6A3F29E7D1E700DE933F /* Products */,
 			);
@@ -174,8 +180,10 @@
 				D33F6A4429E7D1E700DE933F /* SceneDelegate.swift in Sources */,
 				D31C046C29E92B1400374322 /* ViewControllerForHome.swift in Sources */,
 				D31C047229E92C9E00374322 /* ViewControllerUser.swift in Sources */,
+				D37D163F29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift in Sources */,
 				D3AF5D6329ED226E007C7EFE /* CollectionViewCellForBigPosureThree.swift in Sources */,
 				D36C8DEB29EE7A8A00B751F3 /* CollectionViewCellCategroiesAll.swift in Sources */,
+				D37D164129EFBC90004BF699 /* CollectionViewCell2Big.swift in Sources */,
 				D31C047429E92CC500374322 /* ViewControllerShoppingBeg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

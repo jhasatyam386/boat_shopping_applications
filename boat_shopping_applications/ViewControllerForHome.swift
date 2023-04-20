@@ -9,7 +9,7 @@ import UIKit
 
 class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource ,UICollectionViewDelegateFlowLayout{
    
-    var arr
+
     var arrBigPostureFromBoat = [21,22,23]
     
     var arrForIMG  = [1,2,3,4,5,6,7,8,9,10]
@@ -37,22 +37,19 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         if collectionView == self.collectionviewForInfo{
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell1
-        cell.lablforDetail.text = "\(arrForTitle[indexPath.row])"
-        cell.img1.image = UIImage(named: "\(arrForIMG[indexPath.row])")
-        cell.backgroundColor = .white
-        return cell
+        let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell1
+        cell1.lablforDetail.text = "\(arrForTitle[indexPath.row])"
+        cell1.img1.image = UIImage(named: "\(arrForIMG[indexPath.row])")
+        cell1.backgroundColor = .white
+        return cell1
         }
         else{
             let cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "cell2", for: indexPath) as! CollectionViewCellForBigPosureThree
             cell2.imgeForBigPoster.image = UIImage(named: "\(arrBigPostureFromBoat[indexPath.row])")
             cell2.backgroundColor = .black
-            
-            
             return cell2
-            
+
         }
-        
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
@@ -61,7 +58,6 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
         }
         else{
             return CGSize(width: 300, height: 350)
-
         }
     }
  
