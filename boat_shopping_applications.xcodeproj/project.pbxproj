@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D308B97229F2621A00FEC964 /* CollectionViewCellFor2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D308B97129F2621A00FEC964 /* CollectionViewCellFor2.swift */; };
 		D31C046C29E92B1400374322 /* ViewControllerForHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31C046B29E92B1400374322 /* ViewControllerForHome.swift */; };
 		D31C047029E92BD300374322 /* ViewControllerForHeadFone1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31C046F29E92BD300374322 /* ViewControllerForHeadFone1.swift */; };
 		D31C047229E92C9E00374322 /* ViewControllerUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31C047129E92C9E00374322 /* ViewControllerUser.swift */; };
@@ -20,13 +21,12 @@
 		D33F6A4C29E7D1E700DE933F /* boat_shopping_applications.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D33F6A4A29E7D1E700DE933F /* boat_shopping_applications.xcdatamodeld */; };
 		D33F6A4E29E7D1E900DE933F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33F6A4D29E7D1E900DE933F /* Assets.xcassets */; };
 		D33F6A5129E7D1E900DE933F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33F6A4F29E7D1E900DE933F /* LaunchScreen.storyboard */; };
-		D36C8DEB29EE7A8A00B751F3 /* CollectionViewCellCategroiesAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36C8DEA29EE7A8A00B751F3 /* CollectionViewCellCategroiesAll.swift */; };
 		D37D163F29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */; };
-		D37D164129EFBC90004BF699 /* CollectionViewCell2Big.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D164029EFBC90004BF699 /* CollectionViewCell2Big.swift */; };
-		D3AF5D6329ED226E007C7EFE /* CollectionViewCellForBigPosureThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF5D6229ED226E007C7EFE /* CollectionViewCellForBigPosureThree.swift */; };
+		D3C7E59F29F116F500D03E6F /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D308B97129F2621A00FEC964 /* CollectionViewCellFor2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellFor2.swift; sourceTree = "<group>"; };
 		D31C046B29E92B1400374322 /* ViewControllerForHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForHome.swift; sourceTree = "<group>"; };
 		D31C046F29E92BD300374322 /* ViewControllerForHeadFone1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForHeadFone1.swift; sourceTree = "<group>"; };
 		D31C047129E92C9E00374322 /* ViewControllerUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUser.swift; sourceTree = "<group>"; };
@@ -42,10 +42,8 @@
 		D33F6A4D29E7D1E900DE933F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33F6A5029E7D1E900DE933F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D33F6A5229E7D1E900DE933F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D36C8DEA29EE7A8A00B751F3 /* CollectionViewCellCategroiesAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellCategroiesAll.swift; sourceTree = "<group>"; };
 		D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForBigPosureThree.swift; sourceTree = "<group>"; };
-		D37D164029EFBC90004BF699 /* CollectionViewCell2Big.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2Big.swift; sourceTree = "<group>"; };
-		D3AF5D6229ED226E007C7EFE /* CollectionViewCellForBigPosureThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForBigPosureThree.swift; sourceTree = "<group>"; };
+		D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 		D33F6A3529E7D1E700DE933F = {
 			isa = PBXGroup;
 			children = (
-				D37D164029EFBC90004BF699 /* CollectionViewCell2Big.swift */,
 				D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */,
 				D33F6A4029E7D1E700DE933F /* boat_shopping_applications */,
 				D33F6A3F29E7D1E700DE933F /* Products */,
@@ -84,8 +81,8 @@
 				D33F6A4329E7D1E700DE933F /* SceneDelegate.swift */,
 				D33F6A4529E7D1E700DE933F /* ViewController.swift */,
 				D33F6A4729E7D1E700DE933F /* Main.storyboard */,
-				D36C8DEA29EE7A8A00B751F3 /* CollectionViewCellCategroiesAll.swift */,
-				D3AF5D6229ED226E007C7EFE /* CollectionViewCellForBigPosureThree.swift */,
+				D308B97129F2621A00FEC964 /* CollectionViewCellFor2.swift */,
+				D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */,
 				D31C047729E936A700374322 /* CollectionViewCell1.swift */,
 				D31C047529E92CF800374322 /* ViewControllerMoreLast.swift */,
 				D31C047329E92CC500374322 /* ViewControllerShoppingBeg.swift */,
@@ -171,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D308B97229F2621A00FEC964 /* CollectionViewCellFor2.swift in Sources */,
 				D31C047829E936A700374322 /* CollectionViewCell1.swift in Sources */,
 				D31C047629E92CF800374322 /* ViewControllerMoreLast.swift in Sources */,
 				D31C047029E92BD300374322 /* ViewControllerForHeadFone1.swift in Sources */,
+				D3C7E59F29F116F500D03E6F /* CollectionViewCell2.swift in Sources */,
 				D33F6A4629E7D1E700DE933F /* ViewController.swift in Sources */,
 				D33F6A4229E7D1E700DE933F /* AppDelegate.swift in Sources */,
 				D33F6A4C29E7D1E700DE933F /* boat_shopping_applications.xcdatamodeld in Sources */,
@@ -181,9 +180,6 @@
 				D31C046C29E92B1400374322 /* ViewControllerForHome.swift in Sources */,
 				D31C047229E92C9E00374322 /* ViewControllerUser.swift in Sources */,
 				D37D163F29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift in Sources */,
-				D3AF5D6329ED226E007C7EFE /* CollectionViewCellForBigPosureThree.swift in Sources */,
-				D36C8DEB29EE7A8A00B751F3 /* CollectionViewCellCategroiesAll.swift in Sources */,
-				D37D164129EFBC90004BF699 /* CollectionViewCell2Big.swift in Sources */,
 				D31C047429E92CC500374322 /* ViewControllerShoppingBeg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
