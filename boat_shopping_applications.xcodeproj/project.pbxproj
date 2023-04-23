@@ -21,6 +21,7 @@
 		D33F6A4C29E7D1E700DE933F /* boat_shopping_applications.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D33F6A4A29E7D1E700DE933F /* boat_shopping_applications.xcdatamodeld */; };
 		D33F6A4E29E7D1E900DE933F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33F6A4D29E7D1E900DE933F /* Assets.xcassets */; };
 		D33F6A5129E7D1E900DE933F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33F6A4F29E7D1E900DE933F /* LaunchScreen.storyboard */; };
+		D3690A6A29F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3690A6929F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift */; };
 		D37D163F29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */; };
 		D3C7E59F29F116F500D03E6F /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		D33F6A4D29E7D1E900DE933F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33F6A5029E7D1E900DE933F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D33F6A5229E7D1E900DE933F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3690A6929F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForTheBoatCard.swift; sourceTree = "<group>"; };
 		D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForBigPosureThree.swift; sourceTree = "<group>"; };
 		D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 				D33F6A4329E7D1E700DE933F /* SceneDelegate.swift */,
 				D33F6A4529E7D1E700DE933F /* ViewController.swift */,
 				D33F6A4729E7D1E700DE933F /* Main.storyboard */,
+				D3690A6929F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift */,
 				D308B97129F2621A00FEC964 /* CollectionViewCellFor2.swift */,
 				D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */,
 				D31C047729E936A700374322 /* CollectionViewCell1.swift */,
@@ -176,6 +179,7 @@
 				D33F6A4629E7D1E700DE933F /* ViewController.swift in Sources */,
 				D33F6A4229E7D1E700DE933F /* AppDelegate.swift in Sources */,
 				D33F6A4C29E7D1E700DE933F /* boat_shopping_applications.xcdatamodeld in Sources */,
+				D3690A6A29F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift in Sources */,
 				D33F6A4429E7D1E700DE933F /* SceneDelegate.swift in Sources */,
 				D31C046C29E92B1400374322 /* ViewControllerForHome.swift in Sources */,
 				D31C047229E92C9E00374322 /* ViewControllerUser.swift in Sources */,
