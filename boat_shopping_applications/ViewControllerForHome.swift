@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource ,UICollectionViewDelegateFlowLayout{
-   
+    var  arrForAllStarAdimage = [41,42,43,44,45]
     var arrForGiftscardForImg = [31,32,33,34]
     var arrBigPostureFromBoat = [21,22,23]
     var arrForMiniImage = [11,12,13,14]
@@ -18,6 +18,7 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
     var arrForTitle = ["1 Year Warranty","7 Days Replacement","Free Shipping","Secure Checkout","GST Billing","1 Year Warranty","7 Days Replacement","Free Shipping","Secure Checkout","GST Billing"]
     
   
+    @IBOutlet weak var collectionForStarImg: UICollectionView!
     @IBOutlet weak var collectionviewForBoatCard: UICollectionView!
     @IBOutlet weak var collectionViewMiniImage: UICollectionView!
     @IBOutlet weak var collectionViewForBigThreeadPosture: UICollectionView!
@@ -37,8 +38,11 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
         else if collectionView == self.collectionViewMiniImage{
             return arrForMiniImage.count
         }
-        else{
+        else if collectionView == self.collectionviewForBoatCard{
             return arrForGiftscardForImg.count
+        }
+        else{
+            return arrForAllStarAdimage.count
         }
        
         
@@ -68,11 +72,16 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
 
             return cell3
         }
-        else{
+        else if collectionView == self.collectionviewForBoatCard{
             let cell4 = collectionviewForBoatCard.dequeueReusableCell(withReuseIdentifier: "cell4", for: indexPath) as! CollectionViewCellForTheBoatCard
             cell4.imagBoatCard.image = UIImage(named: "\(arrForGiftscardForImg[indexPath.row])")
           
            return cell4
+        }
+        else {
+            let cell5 = collectionForStarImg.dequeueReusableCell(withReuseIdentifier: "cell5", for: indexPath) as! CollectionViewCellForStarAd
+            cell5.imgForStarImg.image = UIImage(named: "\(arrForAllStarAdimage[indexPath.row])")
+            return cell5
         }
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -84,11 +93,15 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
             return CGSize(width: 400, height: 450)
         }
         else if collectionView == self.collectionViewMiniImage{
-            return CGSize(width: 90, height: 140)
+            return CGSize(width: 98, height: 120)
 
         }
-        else {
+        else if collectionView == self.collectionviewForBoatCard{
             return CGSize(width: 350, height: 500)
+        }
+        else{
+            return CGSize(width: 400, height: 500)
+
         }
     }
     
