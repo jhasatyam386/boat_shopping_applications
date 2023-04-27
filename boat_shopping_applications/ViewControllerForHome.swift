@@ -8,6 +8,9 @@
 import UIKit
 
 class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource ,UICollectionViewDelegateFlowLayout{
+    var arrForWatchairSpe3 = [71,72,73]
+    var arrTrendingCategories = [61,62,63,64,65]
+    var arrTreadingImg = [51,52,53]
     var  arrForAllStarAdimage = [41,42,43,44,45]
     var arrForGiftscardForImg = [31,32,33,34]
     var arrBigPostureFromBoat = [21,22,23]
@@ -18,6 +21,8 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
     var arrForTitle = ["1 Year Warranty","7 Days Replacement","Free Shipping","Secure Checkout","GST Billing","1 Year Warranty","7 Days Replacement","Free Shipping","Secure Checkout","GST Billing"]
     
   
+    @IBOutlet weak var collectionviewForTrendingCartegries: UICollectionView!
+    @IBOutlet weak var collectionViewForTeendingImg: UICollectionView!
     @IBOutlet weak var collectionForStarImg: UICollectionView!
     @IBOutlet weak var collectionviewForBoatCard: UICollectionView!
     @IBOutlet weak var collectionViewMiniImage: UICollectionView!
@@ -41,8 +46,14 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
         else if collectionView == self.collectionviewForBoatCard{
             return arrForGiftscardForImg.count
         }
-        else{
+        else if collectionView == self.collectionForStarImg{
             return arrForAllStarAdimage.count
+        }
+        else if collectionView == self.collectionViewForTeendingImg{
+            return arrTreadingImg.count
+        }
+        else{
+            return arrTrendingCategories.count
         }
        
         
@@ -78,10 +89,20 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
           
            return cell4
         }
-        else {
+        else if collectionView == self.collectionForStarImg {
             let cell5 = collectionForStarImg.dequeueReusableCell(withReuseIdentifier: "cell5", for: indexPath) as! CollectionViewCellForStarAd
             cell5.imgForStarImg.image = UIImage(named: "\(arrForAllStarAdimage[indexPath.row])")
             return cell5
+        }
+        else if collectionView == self.collectionViewForTeendingImg{
+            let cell6 = collectionViewForTeendingImg.dequeueReusableCell(withReuseIdentifier: "cell6", for: indexPath) as! CollectionViewCellForTreadingImg
+            cell6.imgtrending.image = UIImage(named: "\(arrTreadingImg[indexPath.row])")
+            return cell6
+        }
+        else {
+            let cell7 = collectionviewForTrendingCartegries.dequeueReusableCell(withReuseIdentifier: "cell7", for: indexPath) as! CollectionViewCellForTrendingCategroies
+            cell7.imgForTendingCategories.image = UIImage(named: "\(arrTrendingCategories[indexPath.row])")
+            return cell7
         }
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -99,8 +120,16 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
         else if collectionView == self.collectionviewForBoatCard{
             return CGSize(width: 350, height: 500)
         }
-        else{
+        else if collectionView == self.collectionForStarImg{
             return CGSize(width: 400, height: 500)
+
+        }
+        else if collectionView == self.collectionViewForTeendingImg{
+            return CGSize(width: 400, height: 500)
+
+        }
+        else{
+            return CGSize(width: 150, height: 220)
 
         }
     }
