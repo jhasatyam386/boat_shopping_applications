@@ -21,6 +21,7 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
     var arrForTitle = ["1 Year Warranty","7 Days Replacement","Free Shipping","Secure Checkout","GST Billing","1 Year Warranty","7 Days Replacement","Free Shipping","Secure Checkout","GST Billing"]
     
   
+    @IBOutlet weak var collectionViewSpeaAirWatch: UICollectionView!
     @IBOutlet weak var collectionviewForTrendingCartegries: UICollectionView!
     @IBOutlet weak var collectionViewForTeendingImg: UICollectionView!
     @IBOutlet weak var collectionForStarImg: UICollectionView!
@@ -52,8 +53,11 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
         else if collectionView == self.collectionViewForTeendingImg{
             return arrTreadingImg.count
         }
-        else{
+        else if collectionView == self.collectionviewForTrendingCartegries{
             return arrTrendingCategories.count
+        }
+        else{
+            return arrForWatchairSpe3.count
         }
        
         
@@ -99,16 +103,21 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
             cell6.imgtrending.image = UIImage(named: "\(arrTreadingImg[indexPath.row])")
             return cell6
         }
-        else {
+        else if collectionView == self.collectionviewForTrendingCartegries {
             let cell7 = collectionviewForTrendingCartegries.dequeueReusableCell(withReuseIdentifier: "cell7", for: indexPath) as! CollectionViewCellForTrendingCategroies
             cell7.imgForTendingCategories.image = UIImage(named: "\(arrTrendingCategories[indexPath.row])")
             return cell7
+        }
+        else{
+            let cell8 = collectionViewSpeaAirWatch.dequeueReusableCell(withReuseIdentifier: "cell8", for: indexPath) as! CollectionViewCellWatchAirSpea
+            cell8.imgAirWatchSpea.image = UIImage(named: "\(arrForWatchairSpe3[indexPath.row])")
+            return cell8
         }
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         if collectionView == self.collectionviewForInfo{
-            return CGSize(width: 150, height: 120)
+            return CGSize(width: 120, height: 120)
         }
         else if collectionView == self.collectionViewForBigThreeadPosture{
             return CGSize(width: 400, height: 450)
@@ -128,9 +137,12 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
             return CGSize(width: 400, height: 500)
 
         }
-        else{
+        else if collectionView == self.collectionviewForTrendingCartegries{
             return CGSize(width: 150, height: 220)
 
+        }
+        else{
+            return CGSize(width: 350, height: 850)
         }
     }
     

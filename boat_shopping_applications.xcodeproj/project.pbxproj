@@ -26,6 +26,7 @@
 		D3690A6A29F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3690A6929F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift */; };
 		D36A659C29F7B336001403EE /* CollectionViewCellForStarAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36A659B29F7B336001403EE /* CollectionViewCellForStarAd.swift */; };
 		D37D163F29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */; };
+		D3ABEFE729FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABEFE629FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift */; };
 		D3C7E59F29F116F500D03E6F /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		D3690A6929F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForTheBoatCard.swift; sourceTree = "<group>"; };
 		D36A659B29F7B336001403EE /* CollectionViewCellForStarAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForStarAd.swift; sourceTree = "<group>"; };
 		D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForBigPosureThree.swift; sourceTree = "<group>"; };
+		D3ABEFE629FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellWatchAirSpea.swift; sourceTree = "<group>"; };
 		D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				D33F6A4329E7D1E700DE933F /* SceneDelegate.swift */,
 				D33F6A4529E7D1E700DE933F /* ViewController.swift */,
 				D33F6A4729E7D1E700DE933F /* Main.storyboard */,
+				D3ABEFE629FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift */,
 				D328F62829F8FCB300149AD2 /* CollectionViewCellForTrendingCategroies.swift */,
 				D328F62629F8F4A000149AD2 /* CollectionViewCellForTreadingImg.swift */,
 				D36A659B29F7B336001403EE /* CollectionViewCellForStarAd.swift */,
@@ -186,6 +189,7 @@
 				D31C047029E92BD300374322 /* ViewControllerForHeadFone1.swift in Sources */,
 				D3C7E59F29F116F500D03E6F /* CollectionViewCell2.swift in Sources */,
 				D33F6A4629E7D1E700DE933F /* ViewController.swift in Sources */,
+				D3ABEFE729FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift in Sources */,
 				D33F6A4229E7D1E700DE933F /* AppDelegate.swift in Sources */,
 				D33F6A4C29E7D1E700DE933F /* boat_shopping_applications.xcdatamodeld in Sources */,
 				D3690A6A29F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift in Sources */,

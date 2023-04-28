@@ -55,10 +55,10 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VIl-us-Nxe">
-                                        <rect key="frame" x="0.0" y="-42" width="414" height="3621"/>
+                                        <rect key="frame" x="0.0" y="-42" width="414" height="5042"/>
                                         <subviews>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7wV-rV-OYL">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="122"/>
+                                                <rect key="frame" x="0.0" y="-16" width="414" height="138"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kqn-W8-61N">
@@ -69,14 +69,14 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCell1" reuseIdentifier="cell1" id="cn9-li-9mW" customClass="CollectionViewCell1" customModule="boat_shopping_applications" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="-3" width="141" height="128"/>
+                                                        <rect key="frame" x="0.0" y="5" width="141" height="128"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gOA-IE-gQK">
                                                             <rect key="frame" x="0.0" y="0.0" width="141" height="128"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afA-i0-xYv">
-                                                                    <rect key="frame" x="6" y="93" width="150" height="37"/>
+                                                                    <rect key="frame" x="6" y="96" width="150" height="24"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -362,7 +362,7 @@
                                                         <rect key="frame" x="8" y="8" width="396" height="72"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_______" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2EQ-pK-I1W">
@@ -373,13 +373,48 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
-                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PIk-23-euU">
-                                                <rect key="frame" x="0.0" y="2108" width="414" height="692"/>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ue2-J6-aVD">
+                                                <rect key="frame" x="0.0" y="2926" width="412" height="187"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="1" minimumInteritemSpacing="1" id="JFz-0G-2Aw">
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="C2O-sh-bT0">
+                                                    <size key="itemSize" width="405" height="178"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCellWatchAirSpea" reuseIdentifier="cell8" id="YW3-Qc-fJ4" customClass="CollectionViewCellWatchAirSpea" customModule="boat_shopping_applications" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="4.5" width="405" height="178"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="evk-qM-kve">
+                                                            <rect key="frame" x="0.0" y="0.0" width="405" height="178"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xtL-17-yUV">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="405" height="188"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                        </collectionViewCellContentView>
+                                                        <size key="customSize" width="405" height="178"/>
+                                                        <connections>
+                                                            <outlet property="imgAirWatchSpea" destination="xtL-17-yUV" id="cYA-AY-GIU"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="odb-BM-7ZJ" id="ATz-gv-sl1"/>
+                                                    <outlet property="delegate" destination="odb-BM-7ZJ" id="deW-Fd-b5a"/>
+                                                </connections>
+                                            </collectionView>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PIk-23-euU">
+                                                <rect key="frame" x="0.0" y="2148" width="414" height="622"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="7" minimumInteritemSpacing="7" id="JFz-0G-2Aw">
                                                     <size key="itemSize" width="206" height="217"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -387,7 +422,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCellForTrendingCategroies" reuseIdentifier="cell7" id="SWG-RG-wWJ" customClass="CollectionViewCellForTrendingCategroies" customModule="boat_shopping_applications" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="206" height="217"/>
+                                                        <rect key="frame" x="104" y="0.0" width="206" height="217"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hOE-eQ-oUw">
                                                             <rect key="frame" x="0.0" y="0.0" width="206" height="217"/>
@@ -413,7 +448,7 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.033218933175308551" green="0.033218933175308551" blue="0.033218933175308551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3500" id="iVA-DO-n7u"/>
+                                            <constraint firstAttribute="height" constant="5000" id="iVA-DO-n7u"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -446,6 +481,7 @@
                         <outlet property="collectionViewForBigThreeadPosture" destination="R0c-aW-g8f" id="J2r-qK-rX5"/>
                         <outlet property="collectionViewForTeendingImg" destination="Ryl-4v-4cA" id="KEO-Od-Img"/>
                         <outlet property="collectionViewMiniImage" destination="n9d-OD-bYi" id="o1O-c3-FCJ"/>
+                        <outlet property="collectionViewSpeaAirWatch" destination="Ue2-J6-aVD" id="O9w-dC-kZS"/>
                         <outlet property="collectionviewForBoatCard" destination="ThJ-Wj-r42" id="DB1-e7-RJl"/>
                         <outlet property="collectionviewForInfo" destination="7wV-rV-OYL" id="9p4-CD-paL"/>
                         <outlet property="collectionviewForTrendingCartegries" destination="PIk-23-euU" id="FJd-3c-2dc"/>
