@@ -445,6 +445,61 @@
                                                     <outlet property="delegate" destination="odb-BM-7ZJ" id="fyh-fD-0Ej"/>
                                                 </connections>
                                             </collectionView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VaQ-wd-NY6">
+                                                <rect key="frame" x="2" y="3121" width="412" height="795"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPJ-K5-ltr">
+                                                        <rect key="frame" x="120" y="77" width="0.0" height="0.0"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="An army of 2 million" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sef-XN-ln3">
+                                                        <rect key="frame" x="0.0" y="8" width="404" height="69"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="boAtheads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6B-tZ-Uuu">
+                                                        <rect key="frame" x="4" y="58" width="404" height="69"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6NK-fZ-lqT">
+                                                        <rect key="frame" x="4" y="71" width="404" height="69"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
+                                                        <color key="textColor" red="1" green="0.0" blue="0.011233948299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp Image 2023-05-04 at 12.49.42" translatesAutoresizingMaskIntoConstraints="NO" id="qt8-qr-CVZ">
+                                                        <rect key="frame" x="17" y="148" width="167" height="179"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp Image 2023-05-04 at 12.49.42 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Lzb-Rx-ZBl">
+                                                        <rect key="frame" x="222" y="148" width="173" height="179"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp Image 2023-05-04 at 12.48.37 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="AIf-bg-dqH">
+                                                        <rect key="frame" x="17" y="596" width="167" height="179"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp Image 2023-05-04 at 12.48.37 (2)" translatesAutoresizingMaskIntoConstraints="NO" id="7q9-bg-EOW">
+                                                        <rect key="frame" x="222" y="596" width="173" height="179"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp Image 2023-05-04 at 12.48.37" translatesAutoresizingMaskIntoConstraints="NO" id="eDK-y1-4Fy">
+                                                        <rect key="frame" x="17" y="341" width="378" height="228"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" red="0.033218933175308551" green="0.033218933175308551" blue="0.033218933175308551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -657,6 +712,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="WhatsApp Image 2023-05-04 at 12.48.37" width="988" height="457"/>
+        <image name="WhatsApp Image 2023-05-04 at 12.48.37 (1)" width="467" height="457"/>
+        <image name="WhatsApp Image 2023-05-04 at 12.48.37 (2)" width="466" height="447"/>
+        <image name="WhatsApp Image 2023-05-04 at 12.49.42" width="484" height="462"/>
+        <image name="WhatsApp Image 2023-05-04 at 12.49.42 (1)" width="480" height="450"/>
         <image name="ellipsis" width="24" height="24"/>
         <image name="headphones" catalog="system" width="128" height="121"/>
         <image name="headphones.circle.fill" catalog="system" width="128" height="121"/>

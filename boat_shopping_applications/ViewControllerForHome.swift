@@ -139,7 +139,6 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
         }
         else if collectionView == self.collectionviewForTrendingCartegries{
             return CGSize(width: 150, height: 220)
-
         }
         else{
             return CGSize(width: 350, height: 850)
