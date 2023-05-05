@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource ,UICollectionViewDelegateFlowLayout{
+    var arrForlastarr = [81,82,83,84,85,86,87,88,89,90,91,92]
     var arrForWatchairSpe3 = [71,72,73]
     var arrTrendingCategories = [61,62,63,64,65]
     var arrTreadingImg = [51,52,53]
