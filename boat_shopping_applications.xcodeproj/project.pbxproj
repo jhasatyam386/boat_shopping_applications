@@ -28,6 +28,9 @@
 		D37D163F29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */; };
 		D3ABEFE729FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABEFE629FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift */; };
 		D3C7E59F29F116F500D03E6F /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */; };
+		D3EC37542A04D27D004FE969 /* CollectionViewCellLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC37532A04D27B004FE969 /* CollectionViewCellLast.swift */; };
+		D3EC37562A04DAE2004FE969 /* ViewControllerForsearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC37552A04DAE2004FE969 /* ViewControllerForsearch.swift */; };
+		D3EC37582A04DD01004FE969 /* CollectionViewCellForSearchbar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC37572A04DD01004FE969 /* CollectionViewCellForSearchbar1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForBigPosureThree.swift; sourceTree = "<group>"; };
 		D3ABEFE629FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellWatchAirSpea.swift; sourceTree = "<group>"; };
 		D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = SOURCE_ROOT; };
+		D3EC37532A04D27B004FE969 /* CollectionViewCellLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellLast.swift; sourceTree = "<group>"; };
+		D3EC37552A04DAE2004FE969 /* ViewControllerForsearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForsearch.swift; sourceTree = "<group>"; };
+		D3EC37572A04DD01004FE969 /* CollectionViewCellForSearchbar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForSearchbar1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,9 @@
 				D33F6A4329E7D1E700DE933F /* SceneDelegate.swift */,
 				D33F6A4529E7D1E700DE933F /* ViewController.swift */,
 				D33F6A4729E7D1E700DE933F /* Main.storyboard */,
+				D3EC37572A04DD01004FE969 /* CollectionViewCellForSearchbar1.swift */,
+				D3EC37552A04DAE2004FE969 /* ViewControllerForsearch.swift */,
+				D3EC37532A04D27B004FE969 /* CollectionViewCellLast.swift */,
 				D3ABEFE629FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift */,
 				D328F62829F8FCB300149AD2 /* CollectionViewCellForTrendingCategroies.swift */,
 				D328F62629F8F4A000149AD2 /* CollectionViewCellForTreadingImg.swift */,
@@ -183,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EC37542A04D27D004FE969 /* CollectionViewCellLast.swift in Sources */,
 				D308B97229F2621A00FEC964 /* CollectionViewCellFor2.swift in Sources */,
 				D31C047829E936A700374322 /* CollectionViewCell1.swift in Sources */,
 				D31C047629E92CF800374322 /* ViewControllerMoreLast.swift in Sources */,
@@ -198,8 +208,10 @@
 				D328F62729F8F4A000149AD2 /* CollectionViewCellForTreadingImg.swift in Sources */,
 				D33F6A4429E7D1E700DE933F /* SceneDelegate.swift in Sources */,
 				D31C046C29E92B1400374322 /* ViewControllerForHome.swift in Sources */,
+				D3EC37562A04DAE2004FE969 /* ViewControllerForsearch.swift in Sources */,
 				D31C047229E92C9E00374322 /* ViewControllerUser.swift in Sources */,
 				D37D163F29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift in Sources */,
+				D3EC37582A04DD01004FE969 /* CollectionViewCellForSearchbar1.swift in Sources */,
 				D31C047429E92CC500374322 /* ViewControllerShoppingBeg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

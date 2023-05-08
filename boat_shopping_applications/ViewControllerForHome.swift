@@ -22,6 +22,7 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
     var arrForTitle = ["1 Year Warranty","7 Days Replacement","Free Shipping","Secure Checkout","GST Billing","1 Year Warranty","7 Days Replacement","Free Shipping","Secure Checkout","GST Billing"]
     
   
+    @IBOutlet weak var collectionviewLastC: UICollectionView!
     @IBOutlet weak var collectionViewSpeaAirWatch: UICollectionView!
     @IBOutlet weak var collectionviewForTrendingCartegries: UICollectionView!
     @IBOutlet weak var collectionViewForTeendingImg: UICollectionView!
@@ -57,8 +58,11 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
         else if collectionView == self.collectionviewForTrendingCartegries{
             return arrTrendingCategories.count
         }
-        else{
+        else if collectionView == self.collectionViewSpeaAirWatch{
             return arrForWatchairSpe3.count
+        }
+        else{
+            return arrForlastarr.count
         }
        
         
@@ -109,10 +113,17 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
             cell7.imgForTendingCategories.image = UIImage(named: "\(arrTrendingCategories[indexPath.row])")
             return cell7
         }
-        else{
+        else if collectionView == self.collectionViewSpeaAirWatch{
             let cell8 = collectionViewSpeaAirWatch.dequeueReusableCell(withReuseIdentifier: "cell8", for: indexPath) as! CollectionViewCellWatchAirSpea
             cell8.imgAirWatchSpea.image = UIImage(named: "\(arrForWatchairSpe3[indexPath.row])")
             return cell8
+        }
+        else {
+            let cell9 = collectionviewLastC.dequeueReusableCell(withReuseIdentifier: "cell9", for: indexPath) as! CollectionViewCellLast
+            cell9.imgLast.image = UIImage(named: "\(arrForlastarr[indexPath.row])")
+            cell9.backgroundColor = .black
+
+            return cell9
         }
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -141,9 +152,18 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
         else if collectionView == self.collectionviewForTrendingCartegries{
             return CGSize(width: 150, height: 220)
         }
-        else{
+        else if collectionView == self.collectionViewSpeaAirWatch{
             return CGSize(width: 350, height: 850)
         }
+        else{
+            let cvSize = collectionviewLastC.frame.width
+            return CGSize(width: (cvSize-9.2)/4, height:130)
+
+        }
+    }
+    @IBAction func searchButtonAction(_ sender: Any) {
+        let navigaet = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForsearch") as! ViewControllerForsearch
+        navigationController?.pushViewController(navigaet, animated: true)
     }
     
 }
