@@ -9,21 +9,24 @@ import UIKit
 
 class ViewControllerUser: UIViewController {
 
+    @IBOutlet weak var LoginButtonForDetails: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        LoginButtonForDetails.layer.cornerRadius = 9
+        LoginButtonForDetails.layer.borderWidth = 3
+        LoginButtonForDetails.layer.borderColor = UIColor.red.cgColor
+        LoginButtonForDetails.layer.masksToBounds = true
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func searchHome3ButtonAction(_ sender: Any) {
+        let navigaet = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForsearch") as! ViewControllerForsearch
+        navigationController?.pushViewController(navigaet, animated: true)
+        
     }
-    */
-
+    
+    @IBAction func loginButtonAction(_ sender: Any) {
+        
+        
+    }
+    
 }
