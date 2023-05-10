@@ -33,6 +33,7 @@
 		D3EC37542A04D27D004FE969 /* CollectionViewCellLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC37532A04D27B004FE969 /* CollectionViewCellLast.swift */; };
 		D3EC37562A04DAE2004FE969 /* ViewControllerForsearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC37552A04DAE2004FE969 /* ViewControllerForsearch.swift */; };
 		D3EC37582A04DD01004FE969 /* CollectionViewCellForSearchbar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC37572A04DD01004FE969 /* CollectionViewCellForSearchbar1.swift */; };
+		D3F265022A0B7B9C0049193E /* ViewControllerForRegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F265012A0B7B9C0049193E /* ViewControllerForRegisterUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		D3EC37532A04D27B004FE969 /* CollectionViewCellLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellLast.swift; sourceTree = "<group>"; };
 		D3EC37552A04DAE2004FE969 /* ViewControllerForsearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForsearch.swift; sourceTree = "<group>"; };
 		D3EC37572A04DD01004FE969 /* CollectionViewCellForSearchbar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForSearchbar1.swift; sourceTree = "<group>"; };
+		D3F265012A0B7B9C0049193E /* ViewControllerForRegisterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForRegisterUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				D33F6A4329E7D1E700DE933F /* SceneDelegate.swift */,
 				D33F6A4529E7D1E700DE933F /* ViewController.swift */,
 				D33F6A4729E7D1E700DE933F /* Main.storyboard */,
+				D3F265012A0B7B9C0049193E /* ViewControllerForRegisterUser.swift */,
 				D340FC9C2A0A27780024BD0C /* ViewControllerForLoginHome3.swift */,
 				D340FC9A2A0A1C340024BD0C /* CollectionViewCellForHome2.swift */,
 				D3EC37572A04DD01004FE969 /* CollectionViewCellForSearchbar1.swift */,
@@ -206,6 +209,7 @@
 				D3C7E59F29F116F500D03E6F /* CollectionViewCell2.swift in Sources */,
 				D33F6A4629E7D1E700DE933F /* ViewController.swift in Sources */,
 				D3ABEFE729FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift in Sources */,
+				D3F265022A0B7B9C0049193E /* ViewControllerForRegisterUser.swift in Sources */,
 				D33F6A4229E7D1E700DE933F /* AppDelegate.swift in Sources */,
 				D33F6A4C29E7D1E700DE933F /* boat_shopping_applications.xcdatamodeld in Sources */,
 				D340FC9D2A0A27780024BD0C /* ViewControllerForLoginHome3.swift in Sources */,

@@ -25,7 +25,8 @@ class ViewControllerUser: UIViewController {
     }
     
     @IBAction func loginButtonAction(_ sender: Any) {
-        
+        let n = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForLoginHome3") as! ViewControllerForLoginHome3
+        navigationController?.pushViewController(n, animated: true)
         
     }
     
