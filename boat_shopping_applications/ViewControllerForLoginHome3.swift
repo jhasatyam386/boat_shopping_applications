@@ -9,6 +9,8 @@ import UIKit
 
 class ViewControllerForLoginHome3: UIViewController {
 
+    @IBOutlet weak var textfiledForPassword: UITextField!
+    @IBOutlet weak var textfiledForEmail: UITextField!
     @IBOutlet weak var RegisterButtonAction: UIButton!
     @IBOutlet weak var loginForLoginRegister: UIButton!
     override func viewDidLoad() {
@@ -36,6 +38,18 @@ class ViewControllerForLoginHome3: UIViewController {
       
     }
     
+    @IBAction func ForgetButtonAction(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForgetPassword") as! ViewControllerForgetPassword
+        navigationController?.pushViewController(naviget, animated: true)
+        
+        
+    }
+   
+    @IBAction func LoginButtonAction(_ sender: Any)
+    {
+        
+        
+        
+    }
     
-
 }
