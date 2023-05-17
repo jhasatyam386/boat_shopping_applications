@@ -14,7 +14,7 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
     var arrTreadingImg = [51,52,53]
     var  arrForAllStarAdimage = [41,42,43,44,45]
     var arrForGiftscardForImg = [31,32,33,34]
-    var arrBigPostureFromBoat = [21,22,23]
+    var arrBigPostureFromBoat = [21,22,23,24,25]
     var arrForMiniImage = [11,12,13,14]
     var arrMiniImageTitle = ["TRUE WIRELESS","WIRELESS","WIRED","SPEAKERS"]
     

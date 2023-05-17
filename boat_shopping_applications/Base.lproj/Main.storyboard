@@ -77,7 +77,7 @@
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afA-i0-xYv">
-                                                                    <rect key="frame" x="6" y="96" width="150" height="24"/>
+                                                                    <rect key="frame" x="8" y="96" width="150" height="24"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -644,7 +644,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z6T-LX-lwe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2857.971014492754" y="-295.3125"/>
+            <point key="canvasLocation" x="2786" y="-295"/>
         </scene>
         <!--View Controller Forsearch-->
         <scene sceneID="BuI-nN-2jc">
@@ -705,7 +705,49 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Oq-Gv-dXh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3479.7101449275365" y="-295.3125"/>
+            <point key="canvasLocation" x="3465" y="-295"/>
+        </scene>
+        <!--View Controller For Home Smart Watch Big Posture-->
+        <scene sceneID="mSX-pB-7sW">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerForHomeSmartWatchBigPosture" id="AsL-wH-9eg" customClass="ViewControllerForHomeSmartWatchBigPosture" customModule="boat_shopping_applications" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jGF-bJ-V8j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sog-0d-5oV">
+                                <rect key="frame" x="4" y="49" width="42" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="chevron.left" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButtonAction:" destination="AsL-wH-9eg" eventType="touchUpInside" id="og3-mt-R59"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Leq-XW-Kdb">
+                                <rect key="frame" x="324" y="51" width="49" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.022464787999999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="17"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="searchButtonAction:" destination="AsL-wH-9eg" eventType="touchUpInside" id="huz-Yb-u03"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="j6J-zD-5qJ"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f16-A2-yKN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4103" y="-303"/>
         </scene>
         <!--Item-->
         <scene sceneID="rAw-CV-DrK">
@@ -1497,6 +1539,7 @@
         <image name="bag (4)" width="24" height="24"/>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="chevron.forward" catalog="system" width="96" height="128"/>
+        <image name="chevron.left" catalog="system" width="96" height="128"/>
         <image name="chevron.right" catalog="system" width="96" height="128"/>
         <image name="delivery-box" width="24" height="24"/>
         <image name="ellipsis" width="24" height="24"/>

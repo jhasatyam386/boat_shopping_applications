@@ -12,18 +12,17 @@ class ViewControllerShoppingBeg: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func SearchButtonAction(_ sender: Any) {
+        let navigaet = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForsearch") as! ViewControllerForsearch
+        navigationController?.pushViewController(navigaet, animated: true)
     }
-    */
-
+    
+    @IBAction func ContinueShoppingButtonAction(_ sender: Any) {
+        let navigaet = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForHouse") as! ViewControllerForHouse
+        navigationController?.pushViewController(navigaet, animated: true)
+        
+    }
+    
 }
