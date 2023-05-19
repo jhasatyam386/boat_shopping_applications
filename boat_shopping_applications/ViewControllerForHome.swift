@@ -165,5 +165,18 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
         let navigaet = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForsearch") as! ViewControllerForsearch
         navigationController?.pushViewController(navigaet, animated: true)
     }
-    
+     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == self.collectionViewForBigThreeadPosture {
+            if indexPath.row == 0{
+                let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForHomeSmartWatchBigPosture") as! ViewControllerForHomeSmartWatchBigPosture
+                navigationController?.pushViewController(navigation, animated: true)
+            }
+            else{
+                let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForHomeSmartWatchBigPosture") as! ViewControllerForHomeSmartWatchBigPosture
+                navigationController?.pushViewController(navigation, animated: true)
+            }
+        }
+        
+    }
 }
