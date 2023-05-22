@@ -13,6 +13,7 @@ class ViewControllerForHomeSmartWatchBigPosture: UIViewController ,UICollectionV
     @IBOutlet weak var shareButton: UIButton!
     @IBOutlet weak var heartButton: UIButton!
     
+    @IBOutlet weak var segmentForColour: UISegmentedControl!
     @IBOutlet weak var collectionviewForWatchForHomeToNextPage: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,5 +50,11 @@ class ViewControllerForHomeSmartWatchBigPosture: UIViewController ,UICollectionV
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         return CGSize(width: 413, height: 427)
+    }
+    @IBAction func segmentactionForcolour(_ sender: Any) {
+        if segmentForColour.selectedSegmentIndex == 0
+        {
+            
+        }
     }
 }
