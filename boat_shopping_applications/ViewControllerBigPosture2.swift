@@ -7,8 +7,11 @@
 
 import UIKit
 
-class ViewControllerBigPosture2: UIViewController {
-
+class ViewControllerBigPosture2: UIViewController ,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout{
+   
+    @IBOutlet weak var collectionForSecound: UICollectionView!
+    var arrForSecond = [201,202,203,204,205]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,7 +19,7 @@ class ViewControllerBigPosture2: UIViewController {
     
 
     @IBAction func backButtonAction(_ sender: Any) {
-        let n = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForHouse") as! ViewControllerForHouse
+        _ = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForHouse") as! ViewControllerForHouse
         navigationController?.popViewController(animated: true)
     }
     
@@ -29,4 +32,18 @@ class ViewControllerBigPosture2: UIViewController {
         let navigaet = storyboard?.instantiateViewController(withIdentifier: "ViewControllerShoppingBeg") as! ViewControllerShoppingBeg
         navigationController?.pushViewController(navigaet, animated: true)
     }
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return arrForSecond.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cellForSecound = collectionForSecound.dequeueReusableCell(withReuseIdentifier: "cellForSecound", for: indexPath) as! CollectionViewCellForsecondPage
+        cellForSecound.imgForSecond.image = UIImage(named: "\(arrForSecond[indexPath.row])")
+        return cellForSecound
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        return CGSize(width: 413, height: 427)
+    }
+    
 }

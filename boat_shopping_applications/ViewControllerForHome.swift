@@ -172,19 +172,19 @@ class ViewControllerForHouse: UIViewController,UICollectionViewDelegate,UICollec
                 let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewControllerForHomeSmartWatchBigPosture") as! ViewControllerForHomeSmartWatchBigPosture
                 navigationController?.pushViewController(navigation, animated: true)
             }
-            else if indexPath.row == 2{
+            else if indexPath.row == 1{
                 let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewControllerBigPosture2") as! ViewControllerBigPosture2
                 navigationController?.pushViewController(navigation, animated: true)
             }
-            else if indexPath.row == 3{
+            else if indexPath.row == 2{
                 let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewControllerBigPosture2For") as! ViewControllerBigPosture2For
                 navigationController?.pushViewController(navigation, animated: true)
             }
-            else if indexPath.row == 4{
+            else if indexPath.row == 3{
                 let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewControllerFor4") as! ViewControllerFor4
                 navigationController?.pushViewController(navigation, animated: true)
             }
-            else if indexPath.row == 5 {
+            else if indexPath.row == 4 {
                 let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewControllerBigPosture5") as! ViewControllerBigPosture5
                 navigationController?.pushViewController(navigation, animated: true)
             }

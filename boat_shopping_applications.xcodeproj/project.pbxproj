@@ -31,6 +31,7 @@
 		D3690A6A29F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3690A6929F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift */; };
 		D36A659C29F7B336001403EE /* CollectionViewCellForStarAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36A659B29F7B336001403EE /* CollectionViewCellForStarAd.swift */; };
 		D37D163F29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */; };
+		D38557F240C2B00D00788FF9 /* CollectionViewCellForsecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38557F140C2B00D00788FF9 /* CollectionViewCellForsecondPage.swift */; };
 		D3ABEFE729FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABEFE629FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift */; };
 		D3C7E59F29F116F500D03E6F /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */; };
 		D3EC37542A04D27D004FE969 /* CollectionViewCellLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC37532A04D27B004FE969 /* CollectionViewCellLast.swift */; };
@@ -71,6 +72,7 @@
 		D3690A6929F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForTheBoatCard.swift; sourceTree = "<group>"; };
 		D36A659B29F7B336001403EE /* CollectionViewCellForStarAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForStarAd.swift; sourceTree = "<group>"; };
 		D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForBigPosureThree.swift; sourceTree = "<group>"; };
+		D38557F140C2B00D00788FF9 /* CollectionViewCellForsecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForsecondPage.swift; sourceTree = "<group>"; };
 		D3ABEFE629FA526100C069E9 /* CollectionViewCellWatchAirSpea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellWatchAirSpea.swift; sourceTree = "<group>"; };
 		D3C7E59E29F116F500D03E6F /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = SOURCE_ROOT; };
 		D3EC37532A04D27B004FE969 /* CollectionViewCellLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellLast.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		D33F6A3529E7D1E700DE933F = {
 			isa = PBXGroup;
 			children = (
+				D38557F140C2B00D00788FF9 /* CollectionViewCellForsecondPage.swift */,
 				D336EA0D1FFA17C400595C8B /* ViewControllerForgetPassword.swift */,
 				D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */,
 				D33F6A4029E7D1E700DE933F /* boat_shopping_applications */,
@@ -246,6 +249,7 @@
 				D3F9D3002A1B48F600913C14 /* ViewControllerBigPosture5.swift in Sources */,
 				D3690A6A29F50BF8002F6BB0 /* CollectionViewCellForTheBoatCard.swift in Sources */,
 				D328F62929F8FCB300149AD2 /* CollectionViewCellForTrendingCategroies.swift in Sources */,
+				D38557F240C2B00D00788FF9 /* CollectionViewCellForsecondPage.swift in Sources */,
 				D3F9D2FE2A1B48C600913C14 /* ViewControllerFor4.swift in Sources */,
 				D36A659C29F7B336001403EE /* CollectionViewCellForStarAd.swift in Sources */,
 				D328F62729F8F4A000149AD2 /* CollectionViewCellForTreadingImg.swift in Sources */,
