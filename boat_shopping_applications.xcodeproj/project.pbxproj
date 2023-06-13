@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C653B9F52A36F1780070ED34 /* CollectionViewCell3boatWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C653B9F42A36F1780070ED34 /* CollectionViewCell3boatWatch.swift */; };
 		D308B97229F2621A00FEC964 /* CollectionViewCellFor2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D308B97129F2621A00FEC964 /* CollectionViewCellFor2.swift */; };
 		D30C95A82A14B54600381F1E /* ViewControllerForHomeSmartWatchBigPosture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C95A72A14B54600381F1E /* ViewControllerForHomeSmartWatchBigPosture.swift */; };
 		D31C046C29E92B1400374322 /* ViewControllerForHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31C046B29E92B1400374322 /* ViewControllerForHome.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C653B9F42A36F1780070ED34 /* CollectionViewCell3boatWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3boatWatch.swift; sourceTree = "<group>"; };
 		D308B97129F2621A00FEC964 /* CollectionViewCellFor2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellFor2.swift; sourceTree = "<group>"; };
 		D30C95A72A14B54600381F1E /* ViewControllerForHomeSmartWatchBigPosture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForHomeSmartWatchBigPosture.swift; sourceTree = "<group>"; };
 		D31C046B29E92B1400374322 /* ViewControllerForHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForHome.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		D33F6A3529E7D1E700DE933F = {
 			isa = PBXGroup;
 			children = (
+				C653B9F42A36F1780070ED34 /* CollectionViewCell3boatWatch.swift */,
 				D38557F140C2B00D00788FF9 /* CollectionViewCellForsecondPage.swift */,
 				D336EA0D1FFA17C400595C8B /* ViewControllerForgetPassword.swift */,
 				D37D163E29EFBB5D004BF699 /* CollectionViewCellForBigPosureThree.swift */,
@@ -230,6 +233,7 @@
 			files = (
 				D3EC37542A04D27D004FE969 /* CollectionViewCellLast.swift in Sources */,
 				D3F9D2FA2A1B482A00913C14 /* ViewControllerBigPosture2.swift in Sources */,
+				C653B9F52A36F1780070ED34 /* CollectionViewCell3boatWatch.swift in Sources */,
 				D35000E240AC4F440021ACCB /* TableViewCellLast.swift in Sources */,
 				D308B97229F2621A00FEC964 /* CollectionViewCellFor2.swift in Sources */,
 				D31C047829E936A700374322 /* CollectionViewCell1.swift in Sources */,
