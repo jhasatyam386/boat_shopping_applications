@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C653B9F52A36F1780070ED34 /* CollectionViewCell3boatWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C653B9F42A36F1780070ED34 /* CollectionViewCell3boatWatch.swift */; };
+		C68692912A398C2A00F7B197 /* CollectionViewCellFourPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68692902A398C2A00F7B197 /* CollectionViewCellFourPage.swift */; };
+		C68692932A398FBC00F7B197 /* CollectionViewCellForFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68692922A398FBC00F7B197 /* CollectionViewCellForFive.swift */; };
 		D308B97229F2621A00FEC964 /* CollectionViewCellFor2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D308B97129F2621A00FEC964 /* CollectionViewCellFor2.swift */; };
 		D30C95A82A14B54600381F1E /* ViewControllerForHomeSmartWatchBigPosture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C95A72A14B54600381F1E /* ViewControllerForHomeSmartWatchBigPosture.swift */; };
 		D31C046C29E92B1400374322 /* ViewControllerForHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31C046B29E92B1400374322 /* ViewControllerForHome.swift */; };
@@ -48,6 +50,8 @@
 
 /* Begin PBXFileReference section */
 		C653B9F42A36F1780070ED34 /* CollectionViewCell3boatWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3boatWatch.swift; sourceTree = "<group>"; };
+		C68692902A398C2A00F7B197 /* CollectionViewCellFourPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellFourPage.swift; sourceTree = "<group>"; };
+		C68692922A398FBC00F7B197 /* CollectionViewCellForFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForFive.swift; sourceTree = "<group>"; };
 		D308B97129F2621A00FEC964 /* CollectionViewCellFor2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellFor2.swift; sourceTree = "<group>"; };
 		D30C95A72A14B54600381F1E /* ViewControllerForHomeSmartWatchBigPosture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForHomeSmartWatchBigPosture.swift; sourceTree = "<group>"; };
 		D31C046B29E92B1400374322 /* ViewControllerForHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForHome.swift; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 				D33F6A4329E7D1E700DE933F /* SceneDelegate.swift */,
 				D33F6A4529E7D1E700DE933F /* ViewController.swift */,
 				D33F6A4729E7D1E700DE933F /* Main.storyboard */,
+				C68692922A398FBC00F7B197 /* CollectionViewCellForFive.swift */,
+				C68692902A398C2A00F7B197 /* CollectionViewCellFourPage.swift */,
 				D3F9D2FF2A1B48F600913C14 /* ViewControllerBigPosture5.swift */,
 				D3F9D2FD2A1B48C600913C14 /* ViewControllerFor4.swift */,
 				D3F9D2FB2A1B487B00913C14 /* ViewControllerBigPosture2For.swift */,
@@ -237,6 +243,7 @@
 				D35000E240AC4F440021ACCB /* TableViewCellLast.swift in Sources */,
 				D308B97229F2621A00FEC964 /* CollectionViewCellFor2.swift in Sources */,
 				D31C047829E936A700374322 /* CollectionViewCell1.swift in Sources */,
+				C68692932A398FBC00F7B197 /* CollectionViewCellForFive.swift in Sources */,
 				D31C047629E92CF800374322 /* ViewControllerMoreLast.swift in Sources */,
 				D31C047029E92BD300374322 /* ViewControllerForHeadFone1.swift in Sources */,
 				D3C7E59F29F116F500D03E6F /* CollectionViewCell2.swift in Sources */,
@@ -258,6 +265,7 @@
 				D36A659C29F7B336001403EE /* CollectionViewCellForStarAd.swift in Sources */,
 				D328F62729F8F4A000149AD2 /* CollectionViewCellForTreadingImg.swift in Sources */,
 				D33F6A4429E7D1E700DE933F /* SceneDelegate.swift in Sources */,
+				C68692912A398C2A00F7B197 /* CollectionViewCellFourPage.swift in Sources */,
 				D31C046C29E92B1400374322 /* ViewControllerForHome.swift in Sources */,
 				D3EC37562A04DAE2004FE969 /* ViewControllerForsearch.swift in Sources */,
 				D31C047229E92C9E00374322 /* ViewControllerUser.swift in Sources */,

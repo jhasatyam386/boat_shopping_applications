@@ -7,12 +7,27 @@
 
 import UIKit
 
-class ViewControllerBigPosture5: UIViewController {
-
+class ViewControllerBigPosture5: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
+    
+    
+    @IBOutlet weak var collectionviewFive: UICollectionView!
+    var arrForFive = [601,602,603,604,605,606]
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+    }
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return arrForFive.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cellForFive = collectionviewFive.dequeueReusableCell(withReuseIdentifier: "cellForFive", for: indexPath) as! CollectionViewCellForFive
+        cellForFive.imgForFive.image = UIImage(named: "\(arrForFive[indexPath.row])")
+        return cellForFive
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        return CGSize(width: 413, height: 427)
     }
     
 
