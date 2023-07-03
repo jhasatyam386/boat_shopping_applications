@@ -13,8 +13,10 @@ class ViewControllerForLoginHome3: UIViewController {
     @IBOutlet weak var textfiledForEmail: UITextField!
     @IBOutlet weak var RegisterButtonAction: UIButton!
     @IBOutlet weak var loginForLoginRegister: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        Sqlite.createFile()
         loginForLoginRegister.layer.cornerRadius = 9
         loginForLoginRegister.layer.borderWidth = 3
        // loginForLoginRegister.layer.borderColor = UIColor.red.cgColor
